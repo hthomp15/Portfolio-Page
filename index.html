@@ -8,33 +8,48 @@
     </head>
     <body>
         <Header class="header">
-            <!--need to snap to each section-->
-            <ul class="navigation">
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#my-work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="Assets/HThompsonResume.pdf">Resume</a></li>
-            </ul>
+            
+            <div class="navigation">
+                <!--need to snap to each section-->
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#my-work">Work</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                    <li><a href="Assets/HThompsonResume.pdf">Resume</a></li>
+                </ul>
+            </div>
             <!--Make these two in a banner at the top of the page-->
-            <img src="Assets/IMG_20171008_173825.jpg">
+            <div class="banner">
+                <img src="Assets/IMG_20171008_173825.jpg">
             <h1>Haile (Hi-lee) Thompson</h1>
+            </div>
+            
+            
         </Header>
         <article id="about-me" class="bio">
             <h2>About Me</h2>
             <p>I believe my unuque upbringing has shaped me in many ways. I am Jamaican-American, born in the countryside of the Montego Bay area and grew up in the winter olympic town of Lake Placid in upstate New York.
                 I have a very huble upbringing, growing up with a mix of   </p>
         </article>
+        <!--Main work and other projects-->
         <main id="my-work" class="main-work">
             <h2>My Work</h2>
-            <img src="Assets/IMG_2906.jpg" id="feature-project">
-            <img src="Assets/istockphoto-1155347271-612x612.jpeg">
-            <img src="Assets/istockphoto-led.jpeg">
-            <img src="Assets/istockphoto-pastel.jpeg">
-            <img src="Assets/Screen Shot 2021-12-30 at 8.00.16 PM.png">
-
-        
+            <!--Main project is bigger and central on the page-->
+            <div class="feature-proj">
+                <img src="Assets/IMG_2906.jpg" id="feature-project">
+            </div>
+            <!--These projects are smaller-->
+            <div class="projects">
+                <img src="Assets/istockphoto-1155347271-612x612.jpeg">
+                <img src="Assets/istockphoto-led.jpeg">
+                <img src="Assets/istockphoto-pastel.jpeg">
+                <img src="Assets/Screen Shot 2021-12-30 at 8.00.16 PM.png">
+            </div>
+            
         </main>
         <article id="contact-me" class="contact">
+            <!--Five svg images, Phone Twitter Github email Linkedin-->
+            <!--Images will lead to pages, or copy content in clipboard-->
             <h2>Contact Me</h2>
             <ul class="media-links">
                 <li><img src="Assets/icons8-phone.svg"></li>
@@ -44,8 +59,7 @@
                 <li><img src="Assets/icons8-twitter.svg"></li>
             </ul>
 
-            <!--Five svg images, Phone Twitter Github email Linkedin-->
-            <!--Images will lead to pages, or copy content in clipboard-->
+         
         </article>
     </body>
     <!--maybe footer?-->
