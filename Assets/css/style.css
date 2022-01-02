@@ -4,16 +4,19 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #e3e3e3;
-    --secondary-color: #f6f6f8;
-    --third-color: #c60021;
-    --main-font: black;
+    --primary-color: #f7a650;
+    --secondary-color: #f0cea9;
+    --third-color: #e65621;
+    --main-font: #e65621;
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--main-font);
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
   }
+h2 {
+    font-size: 30px;
+}
 
 /* Nav bar  */
 header {
@@ -53,7 +56,7 @@ header nav ul li a:hover {
     justify-content: flex-start;
     background-position: 80%;
     background-size: cover;
-    background-image: url("./3437842.jpeg");
+    background-image: url("./banner.jpeg");
     padding: 25px;
     padding-left: 30px;
     padding-right: 65%;
@@ -69,13 +72,9 @@ header nav ul li a:hover {
     background-size: cover;
     justify-content: space-around;
 }
-.about-me .bio {
-    display: flex;
-    justify-content: ;
-}
 .about-me h2{
     text-align: center;
-    width: 25%;
+    width: 15%;
     padding: 20px;
     border-right: solid 4px var(--third-color);
 }
@@ -83,6 +82,16 @@ header nav ul li a:hover {
     width: 15%;
     padding: 20px;
 }
+.about-me .about-text {
+    margin: auto;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-indent: 30px;
+    color: #5f499b;
+}
+
 
 /* Main work content styles */
 
@@ -92,12 +101,17 @@ main {
     padding: 20px;
     margin: auto;
     align-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-
+main h2 {
+    margin-bottom: 20px;
+}
 .main-work .feature-proj img {
     width: 60%;
     padding: 15px;
     object-fit: cover;
+    border-top: solid 5px var(--third-color);
 }
 .main-work .projects img {
     width: 30%;
@@ -117,7 +131,7 @@ main {
 /* Contact me styles */
 .contact {
     background-position: 80%;
-    padding: 20px;
+    padding: 0 20px 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,4 +153,9 @@ main {
     background: var(--secondary-color);
     border-radius: 10px;
 }
-
+ /* Footer style */ 
+ footer {
+     text-align: center;
+     margin-bottom: 10px;
+     margin-top: 0;
+ }
