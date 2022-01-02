@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #e3e3e3;
+    --secondary-color: #f6f6f8;
+    --third-color: #c60021;
+    --main-font: black;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--main-font);
+    background-color: var(--primary-color);
+  }
+
+/* Header and Nav bar  */
+header {
+    background-color: var(--secondary-color);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-position: 80%;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+header nav ul li a {
+    padding: 10px;
+    color: var(--main-font);
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    background:var(--primary-color);
+    color: var(--third-color);
+    border-radius: 10px;
+    text-shadow: none;
+    text-decoration: underline;
+    text-decoration-color: var(--third-color);
+
+}
+.banner{
+    display: flex;
+    justify-content: flex-start;
+    background-position: 80%;
+    background-size: cover;
+    background-image: url("./3437842.jpeg");
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 65%;
+    margin-bottom: 25px;
+}
+.about-me {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-position: 80%;
+    background-size: cover;
+    justify-content: space-around;
+}
+.about-me .bio {
+    display: flex;
+    justify-content: ;
+}
+.about-me h2{
+    text-align: center;
+    width: 25%;
+    padding: 20px;
+    border-right: solid 4px var(--third-color);
+}
+.about-me img {
+    width: 15%;
+    padding: 20px;
+}
+
+
+
+
+.contact {
+    background-position: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact ul {
+    list-style: none;
+    display: flex;
+    height: 10%;
+   
+}
+.contact ul a img {
+    padding: 20px;
+}
+.contact h2 {
+    padding: 20px;
+}
+.contact .contact-svgs ul li a img:hover {
+    background: var(--secondary-color);
+    border-radius: 10px;
+}
+
