@@ -15,7 +15,7 @@ body {
     background-color: var(--primary-color);
   }
 
-/* Header and Nav bar  */
+/* Nav bar  */
 header {
     background-color: var(--secondary-color);
     position: sticky;
@@ -46,6 +46,8 @@ header nav ul li a:hover {
     text-decoration-color: var(--third-color);
 
 }
+/* Welcome Banner style */ 
+
 .banner{
     display: flex;
     justify-content: flex-start;
@@ -57,6 +59,8 @@ header nav ul li a:hover {
     padding-right: 65%;
     margin-bottom: 25px;
 }
+/* About me section styles */
+
 .about-me {
     display: flex;
     margin-bottom: 20px;
@@ -80,9 +84,37 @@ header nav ul li a:hover {
     padding: 20px;
 }
 
+/* Main work content styles */
 
+main {
+    display: flex;
+    background-position: 80%;
+    padding: 20px;
+    margin: auto;
+    align-content: center;
+}
 
+.main-work .feature-proj img {
+    width: 60%;
+    padding: 15px;
+    object-fit: cover;
+}
+.main-work .projects img {
+    width: 30%;
+    padding: 15px;
+    object-fit: cover;
+}
+.feature-proj {
+    display: flex;
+    justify-content: center;
+    
+}
+.projects {
+    display: flex;
+    justify-content: center;
+}
 
+/* Contact me styles */
 .contact {
     background-position: 80%;
     padding: 20px;
@@ -101,6 +133,7 @@ header nav ul li a:hover {
 }
 .contact h2 {
     padding: 20px;
+    font-size: 30px;
 }
 .contact .contact-svgs ul li a img:hover {
     background: var(--secondary-color);
