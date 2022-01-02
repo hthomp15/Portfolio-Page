@@ -7,30 +7,31 @@
         <link rel="stylesheet" href="./Assets/css/style.css" />
     </head>
     <body>
-        <header class="header">
-            
+        <header>
             <nav class="navigation">
                 <!--need to snap to each section-->
                 <ul class="nav-bar">
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#my-work">Work</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
-                    <li><a href="Assets/HThompsonResume.pdf">Resume</a></li>
+                    <li><a href="Assets/HThompsonResume.pdf" target="_blank">Resume</a></li>
                 </ul>
-            </nav>
-            <!--Make these two in a banner at the top of the page-->
-            <div class="banner">
-                <img src="Assets/IMG_20171008_173825.jpg">
-            <h1>Haile (Hi-lee) Thompson</h1>
-            </div>
-            
-            
+            </nav> 
         </header>
-        <article id="about-me" class="bio">
-            <h2>About Me</h2>
-            <p>I believe my unuque upbringing has shaped me in many ways. I am Jamaican-American, born in the countryside of the Montego Bay area and grew up in the winter olympic town of Lake Placid in upstate New York.
-                I have a very huble upbringing, growing up with a mix of   </p>
-        </article>
+         <!--Make these two in a banner at the top of the page-->
+         <div class="banner">
+            <h1>Hi I'm Haile (Hi-lee)</h1>
+        </div>
+        <div class="about-me">
+            <div class="bio">
+                <h2>About Me</h2>
+                <img src="Assets/IMG_20171008_173825.jpg">
+                <p>
+                    I believe my unuque upbringing has shaped me in many ways. I am Jamaican-American, born in the countryside of the Montego Bay area and grew up in the winter olympic town of Lake Placid in upstate New York.
+                    I have a very huble upbringing, growing up with a mix of  
+                </p>    
+            </div>
+        </div>
         <!--Main work and other projects-->
         <main id="my-work" class="main-work">
             <h2>My Work</h2>
@@ -47,20 +48,24 @@
             </div>
             
         </main>
-        <article id="contact-me" class="contact">
+        <div id="contact-me" class="contact">
             <!--Five svg images, Phone Twitter Github email Linkedin-->
             <!--Images will lead to pages, or copy content in clipboard-->
             <h2>Contact Me</h2>
-            <ul class="media-links">
-                <li><img src="Assets/icons8-phone.svg"></li>
-                <li><img src="Assets/icons8-gmail.svg"></li>
-                <li><img src="Assets/icons8-github.svg"></li>
-                <li><img src="Assets/icons8-linkedin.svg"></li>
-                <li><img src="Assets/icons8-twitter.svg"></li>
-            </ul>
-
-         
-        </article>
+            <div class="contact-svgs">
+                <ul class="top-imgs">
+                    <li><a href="tel:5186377689"><img src="Assets/icons8-phone.svg"></a></li>
+                    <li><a href="mailto:hailethomp@gmail.com"><img src="Assets/icons8-gmail.svg"></a></li>
+                    <li><a href="https://github.com/hthomp15" target="_blank"><img src="Assets/icons8-github.svg"></a></li>    
+                </ul>
+            </div>
+            <div class="contact-svgs">
+                <ul class="bottom-imgs">
+                    <li><a href="https://www.linkedin.com/in/haile-thompson-b9a21013a/" target="_blank"><img src="Assets/icons8-linkedin.svg"></a></li>
+                    <li><a href="https://twitter.com/software_simba1" target="_blank"><img src="Assets/icons8-twitter.svg"></a></li>    
+                </ul>
+            </div> 
+        </div>
     </body>
     <!--maybe footer?-->
 </html>
