@@ -93,40 +93,62 @@ header nav ul li a:hover {
 }
 
 
-/* Main work content styles */
 
-main {
-    display: flex;
+
+
+/* Main work content styles */
+.main-work {
     background-position: 80%;
     padding: 20px;
     margin: auto;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-main h2 {
-    margin-bottom: 20px;
-}
-.main-work .feature-proj img {
-    width: 60%;
-    padding: 15px;
-    object-fit: cover;
-    border-top: solid 5px var(--third-color);
-}
-.main-work .projects img {
-    width: 30%;
-    padding: 15px;
-    object-fit: cover;
-}
-.feature-proj {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
-.projects {
-    display: flex;
-    justify-content: center;
+.caption-text {
+    position: relative;
+    color: var(--main-font);
+    bottom: 20%;
+    left: 10%;
+    text-decoration: none;
+    text-decoration-line: none;
 }
+.caption {
+    width: 25%;
+    padding: 20px;
+}
+#feature-proj{
+    width: 50%;
+    display: flex;
+    
+}
+.proj-pair {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+}
+/* .caption .caption-text {
+    position: absolute;
+    bottom: 30px;
+    padding: 10px;
+} */
+.main-work img {
+    width: 100%;
+    height :100%;
+    object-fit: cover;
+    border: solid 5px var(--third-color);
+    opacity: .7;
+}
+
+
+
+
+
+
+
 
 /* Contact me styles */
 .contact {
