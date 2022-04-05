@@ -113,9 +113,15 @@ header nav ul li a:hover {
 }
 .caption-text {
     position: relative;
+    text-align: center;
+    font-size: 20px;
     color: var(--main-font);
-    bottom: 20%;
-    left: 10%;
+   display: inline-block;
+   border: var(--main-font) solid 5px;
+   background-color: var(--secondary-color);
+   bottom: 30%;
+   left: 8%;
+    padding: 10px;
   
 }
 .feature-proj .caption {
